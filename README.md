@@ -5,7 +5,7 @@
 Work on this project. Get familiar with various native components, navigation, redux and more.
 
 ## Expo Demo
-<center><a href=""><img src="https://www.instamobile.io/wp-content/uploads/2019/07/Screen-Shot-2019-07-22-at-8.20.29-PM.png" /></a></center>
+<center><a href=""><img src="https://github.com/gispatial/bootyfit-rn/blob/main/assets/Screen%20Shot%202020-10-10%20at%207.09.28%20PM.png" /></a></center>
 
 ## Features
 - Calendar
