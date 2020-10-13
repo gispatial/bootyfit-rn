@@ -1,5 +1,5 @@
 import React from 'react';
-import { FlatList, ScrollView, Text, View, TouchableHighlight, Image } from 'react-native';
+import { FlatList, ScrollView, Text, View, TouchableHighlight, Image, SafeAreaView, SectionList } from 'react-native';
 import styles from './styles';
 import { recipes } from '../../data/dataArrays';
 import MenuImage from '../../components/MenuImage/MenuImage';
@@ -39,15 +39,24 @@ export default class HomeScreen extends React.Component {
   render() {
     return (
       <View>
+        <View>
+        <Image source={{uri: 'http://gharxy.digital/stage/wp-content/uploads/2020/10/topbanner.png'}}
+                 style={{width: 410, height: 200}} />
+                 <Text style={{ fontSize: 11 }}>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Thanks for trying BootyFit, Your personal guide in shaping health</Text>
+                 <Text style={{ fontSize: 14 }}>&nbsp;&nbsp;&nbsp;Recipe Tips w/ Realtime booking by <Text style={{ color: 'red' }}>Certified PT Expert</Text>
+</Text>
+        </View>
         <FlatList
           vertical
           showsVerticalScrollIndicator={false}
-          numColumns={11}
+          numColumns={8}
           data={recipes}
           renderItem={this.renderRecipes}
           keyExtractor={item => `${item.recipeId}`}
         />
-      </View>
+        <Text style={{ fontSize: 14 }}>&nbsp;&nbsp;&nbsp;&nbsp;An awesome project by RiotGrr developed by <Text style={{ color: 'green' }}>Rizq Solutions</Text>
+        </Text>
+                </View>
     );
   }
 }

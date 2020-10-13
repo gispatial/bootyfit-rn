@@ -14,9 +14,9 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splashscreen.png",
       "resizeMode": "contain",
-      "backgroundColor": "#fce8f6"
+      "backgroundColor": "#4a0d4a"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -26,6 +26,7 @@
     ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "githubUrl": "https://github.com/gispatial/bootyfit-rn/"
   }
 }

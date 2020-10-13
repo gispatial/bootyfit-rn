@@ -27,7 +27,7 @@ export default class DrawerContainer extends React.Component {
             }}
           />
           <MenuButton
-            title="HEALTH FOOD"
+            title="PT BOOKING"
             source={require('../../../assets/icons/search.png')}
             onPress={() => {
               navigation.navigate('BOOTYFIT');
