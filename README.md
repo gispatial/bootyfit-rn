@@ -1,6 +1,6 @@
 # BootyFit App in React Native
 
-<center><a href="https://github.com/gispatial/bootyfit-rn/blob/main/assets/bootyfitLiving.png" width="100%" /></a></center>
+<img src="https://github.com/gispatial/bootyfit-rn/blob/main/assets/bootyfitLiving.png" width="100%" /></img>
 
 Work on this project. Get familiar with various native components, navigation, redux and more.
 
